@@ -2,7 +2,7 @@ import random
 
 def print2DArray(array):
 	for i in range(len(array)):
-		for j in range(len(arr[0])):
+		for j in range(len(array[0])):
 			print(array[i][j], " ", end="")
 		print()
 
